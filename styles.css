@@ -195,10 +195,10 @@ ul {
 }
 
 .hero-photo {
-  width: 200px;
-  height: 250px;
+  width: 180px;
+  height: 270px;
   object-fit: cover;
-  object-position: top center;
+  object-position: center 15%;
   border-radius: 6px;
   border: 3px solid var(--sand);
   box-shadow: 0 0 0 6px rgba(232, 201, 138, 0.12), 0 12px 32px rgba(0,0,0,0.4);
