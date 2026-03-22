@@ -103,7 +103,7 @@ ul {
 .hero {
   background-color: var(--brown);
   color: var(--cream);
-  min-height: 92vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -195,8 +195,8 @@ ul {
 }
 
 .hero-photo {
-  width: 240px;
-  height: 360px;
+  width: 280px;
+  height: 420px;
   object-fit: cover;
   object-position: center 15%;
   border-radius: 6px;
