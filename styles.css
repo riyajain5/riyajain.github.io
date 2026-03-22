@@ -1,23 +1,23 @@
 /* =============================================
    RIYA JAIN — PERSONAL RESUME WEBSITE
    styles.css
-   Design: Indian editorial / theatre-poster
-   Palette: Earthy, vintage, slightly warm
+   Design: Indian theatre-poster / ILTIJA-inspired
+   Palette: Deep pink + rust + earthy gold + cream
    ============================================= */
 
 /* ---------- CSS VARIABLES ---------- */
 :root {
-  --cream:     #f5f0e8;
-  --parchment: #ede6d6;
-  --rust:      #a0432f;
-  --rust-light:#c9614a;
-  --brown:     #5c3d2e;
-  --brown-mid: #7a5240;
-  --olive:     #6b7c52;
-  --olive-light: #8a9e6a;
-  --sand:      #d4b896;
-  --ink:       #2b1f17;
-  --muted:     #7a6a5a;
+  --cream:     #fdf6ee;
+  --parchment: #f5e8d8;
+  --rust:      #b5361e;
+  --rust-light:#d4522f;
+  --brown:     #7a1f3d;
+  --brown-mid: #9c2d52;
+  --olive:     #c17f3a;
+  --olive-light: #d4a05a;
+  --sand:      #e8c98a;
+  --ink:       #1e0f0a;
+  --muted:     #7a5a52;
 
   --ff-serif: 'Playfair Display', Georgia, serif;
   --ff-sans:  'DM Sans', sans-serif;
@@ -731,7 +731,16 @@ textarea {
   transform: translateY(-1px);
 }
 
-/* ---------- FOOTER ---------- */
+.contact-info a {
+  color: var(--rust);
+  text-decoration: none;
+  font-size: 0.85rem;
+  word-break: break-all;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
 .footer {
   background-color: var(--brown);
   color: var(--sand);
